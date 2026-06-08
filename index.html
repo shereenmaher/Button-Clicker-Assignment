@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <script src="./main.js"></script>
+    <div class="container">
+        <div class="nav-bar">
+            <h1>Dojonary</h1>
+            <input type="text" id="search" name="search" placeholder="Search">
+            <button onclick="changeText(this)" class="log-in-btn">Log in</button>
+        </div>
+        <div class="first-box">
+            <div class="ninja-box">
+                <div class="ninja">
+                    <h2>ninja</h2>
+                    <p id="noun">noun</p>
+                    <p class="plural-p">Plural: <span id="plural">ninjas</span></p>
+                    <button onclick="alert('Ninja was liked')" class="likes-btn">13 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A practitioner skilled in the </p>
+                    <p class="links"><a class="link-style" href="#">Japanese</a> art of <a class="link-style" href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="Dojonary">
+                <div class="dojonary-style">
+                    <p>Dojonary is</p>
+                    <p class="links">defined by <span style="font-weight: bold;">YOU</span></p>
+                </div>
+                <button onclick="hide(this)" class="definition-button">Add Definition</button>
+            </div>
+        </div>
+        <div class="second-box">
+                <div class="ninja" >
+                    <h2>ninja</h2>
+                    <p id="noun">noun</p>
+                    <p class="plural-p">Plural: <span id="plural">ninjas</span></p>
+                    <button onclick="alert('Ninja was liked')" class="likes-btn">13 likes</button>
+                </div>
+                <div class="definition" >
+                    <p>A <a class="link-style" href="#">Programmer</a> who breaks </p>
+                    <p class="links">  down problems with <a class="link-style" href="#">Zen</a>-like focus</p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+.container{
+    width: 900px;
+    height: 800px;
+    margin-left: 450px;
+    margin-top: -10px;
+}
+.nav-bar{
+    width: 900px;
+    height: 100px;
+    background-color:#cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-size: 48px;
+    margin-left: 20px;
+}
+#search{
+    width:360px;
+    height: 40px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+.log-in-btn{
+    background-color: #297ada;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    box-shadow: 3px 3px black;
+    margin-right: 20px;
+}
+
+.first-box{
+  width: 900px;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ninja-box{
+    width: 530px;
+    height: 285px;
+    display: flex; 
+    border: 3px solid black;
+}
+.ninja{
+    width: 200px;
+    height: 285;
+    padding-left: 20px;
+}
+h2{
+    font-size: 48px;
+}
+#noun{
+    font-style: italic;
+    font-size: 24px;
+    margin-top: -30px;
+    margin-left: 25px;
+}
+.plural-p{
+    font-size: 24px;
+    margin-left: -5px;
+}
+#plural{
+    font-style: italic;
+}
+.likes-btn{
+    box-shadow: 3px 3px black;
+    width: 106px;
+    height: 44px;
+    font-size: 18px;
+}
+.definition{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-size: 24px;
+}
+.links{
+    margin-top: -23px;
+}
+.link-style{
+    color: #297ada;
+}
+.Dojonary{
+    width: 335px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    border: 3px solid black;
+}
+.dojonary-style{
+    margin-top: 20px;
+    font-size: 36px;
+    padding-left: 20px;
+}
+.definition-button{
+    background-color: #92c47d;
+    width: 296px;
+    height: 50px;
+    margin-left: 20px;
+    box-shadow: 2px 2px;
+    font-size: 20px;
+}
+.second-box{
+    width: 530px;
+    height: 285px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+}
